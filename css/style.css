@@ -93,3 +93,22 @@
 }
 
 
+.section1{
+    padding: 20px 2.5%;
+   
+}
+.img-carousle{
+    width: 510px;
+    height:285px;
+   
+    margin: 0 20px;
+  
+}
+.img-carousle img{
+    border-radius: 10px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

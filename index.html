@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-   
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,36 +17,54 @@
       crossorigin="anonymous"
     />
     <title>nykaa-clone</title>
+    <!-- --------------carousel link------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <script
       src="https://kit.fontawesome.com/01a5a2cd3c.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/style.css" />
-  
   </head>
   <body>
     <div class="container-fluid first-header">
       <div class="container">
         <ul class="nav justify-content-end align-items-center">
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link first-list" href="#"
-              ><i class="fa-solid fa-mobile-button"></i><span class="first-list-item">Get app</span></a
+              ><i class="fa-solid fa-mobile-button"></i
+              ><span class="first-list-item">Get app</span></a
             >
           </li>
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link first-list" href="#"
               ><i class="fa-solid fa-location-dot"></i
               ><span class="first-list-item">Store & Event</span></a
             >
           </li>
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link first-list" href="#"
-              ><i class="fa-solid fa-gift"></i><span class="first-list-item">Gift Card</span></a
+              ><i class="fa-solid fa-gift"></i
+              ><span class="first-list-item">Gift Card</span></a
             >
           </li>
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link first-list" href="#"
-              ><i class="fa-regular fa-circle-question"></i><span class="first-list-item">Help</span></a
+              ><i class="fa-regular fa-circle-question"></i
+              ><span class="first-list-item">Help</span></a
             >
           </li>
         </ul>
@@ -78,21 +98,31 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item me-4 ">
-              <a class="nav-link text-dark middle-list" href="#"><span class="middle-list">Categories</span></a>
+            <li class="nav-item me-4">
+              <a class="nav-link text-dark middle-list" href="#"
+                ><span class="middle-list">Categories</span></a
+              >
             </li>
             <li class="nav-item me-4">
-              <a class="nav-link text-dark middle-list" href="#"><span class="middle-list">Brands</span></a>
+              <a class="nav-link text-dark middle-list" href="#"
+                ><span class="middle-list">Brands</span></a
+              >
             </li>
 
             <li class="nav-item me-4">
-              <a class="nav-link text-dark middle-list" href="#"><span class="middle-list">Luxe</span></a>
+              <a class="nav-link text-dark middle-list" href="#"
+                ><span class="middle-list">Luxe</span></a
+              >
             </li>
             <li class="nav-item me-4">
-              <a class="nav-link text-dark middle-list" href="#"><span class="middle-list">Nykaa Fashion</span></a>
+              <a class="nav-link text-dark middle-list" href="#"
+                ><span class="middle-list">Nykaa Fashion</span></a
+              >
             </li>
             <li class="nav-item me-4">
-              <a class="nav-link text-dark middle-list" href="#"><span class="middle-list">Beauty Advice</span></a>
+              <a class="nav-link text-dark middle-list" href="#"
+                ><span class="middle-list">Beauty Advice</span></a
+              >
             </li>
           </ul>
           <form class="d-flex align-items-center">
@@ -102,36 +132,279 @@
               placeholder="Search On Nykaa"
               aria-label="Search"
             />
-            <button class="btn search-btn" type="submit">
-              Search
-            </button>
-            <i class="fa-solid fa-bag-shopping ms-5" style="font-size: 20px;"></i>
+            <button class="btn search-btn" type="submit">Search</button>
+            <i
+              class="fa-solid fa-bag-shopping ms-5"
+              style="font-size: 20px"
+            ></i>
           </form>
         </div>
       </div>
     </nav>
     <div class="container-fluid last-heder">
-        <div class="container">
-            <ul class="nav">
-                <li class="nav-item"><a class="nav-link last-list" href="#">Makeup</a> </li>
-                <li class="nav-item"><a class="nav-link last-list" href="#"> Skin</a></li>
-                <li class="nav-item"><a class="nav-link last-list" href="#">  Hair</a></li>
-                <li class="nav-item"><a class="nav-link last-list" href="#" >  Appliances</a>  </li>
-                <li class="nav-item"><a class="nav-link last-list" href="#" >Bath & Body</a> </li>
-                <li class="nav-item"><a class="nav-link last-list" href="#" >  Natural</a> </li>
-                <li class="nav-item"><a class="nav-link last-list" href="#" > Mom & Baby</a> </li>
-                <li class="nav-item"><a class="nav-link last-list" href="#" >     Health & Wellness</a></li>
-                <li class="nav-item"><a class="nav-link last-list" href="#" > Men</a> </li>
-                <li class="nav-item"><a class="nav-link last-list" href="#" > Fragrance</a>
-                <li class="nav-item"><a class="nav-link last-list" href="#" >Pop Ups</a> </li>
-                </ul>
+      <div class="container">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#">Makeup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#"> Skin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#"> Hair</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#"> Appliances</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#">Bath & Body</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#"> Natural</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#"> Mom & Baby</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#"> Health & Wellness</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#"> Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#"> Fragrance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link last-list" href="#">Pop Ups</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ----------------header end------------------ -->
+    <!-- <div class="container-fluid mt-5">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card" style="width: 18rem">
+            <img src="lee min ho.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div> -->
+
+
+    <div class="container-fluid section1">
+      <div class="owl-carousel owl-theme h-100">
+        <div class="item">
+          <div class="img-carousle"><img class=" h-100 " src="./img/default_006.avif" alt="" ></div>
+        </div>
+        <div class="item">
+          <div class="img-carousle"><img class="h-100 "  src="./img/default_009.avif" alt="" ></div>
+        </div>
+        <div class="item">
+          <div class="img-carousle"><img  class=" h-100 " src="./img/default_010.avif" alt="" ></div>
+        </div>
+        <div class="item">
+          <div class="img-carousle"><img class=" h-100" src="./img/default_012.avif" alt=""></div>
+        </div>
+        <div class="item">
+          <div class="img-carousle"><img class=" h-100 " src="./img/default_014.avif" alt="" ></div>
+        </div>
+        <div class="item">
+          <div class="img-carousle"><img class=" h-100 " src="./img/default_020.avif" alt="" ></div>
+        </div>
+        <div class="item">
+          <div class="img-carousle"><img class=" h-100 " src="./img/default_024.avif" alt=""></div>
+        </div>
+       
         </div>
     </div>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop:true,
+        margin: 20,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        stagepadding: 50,
+        nav: true,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1.3,
+          },
+          1000: {
+            items: 2.4,
+          },
+          1400: {
+            items: 4,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
