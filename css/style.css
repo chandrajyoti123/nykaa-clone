@@ -1,0 +1,95 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+   
+}
+.first-header{
+    background: linear-gradient(90deg,#a3d8c4,#e9c974,#e0f5ec,#e9c974);
+}
+.first-list{
+    color: black;
+}
+.first-list:hover{
+    color:#fc2779 ;
+    
+}
+.first-list-item{
+    font-size: 15px;
+    padding-left: 7px;
+    position: relative;
+}
+
+ .first-list-item::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+   
+    margin-left: 15px;
+}
+.middle-header1{
+  
+   border-bottom: 0.009px solid  rgba(147, 140, 140, 0.3)
+}
+.middle-header2{
+    padding:5px 0;
+   margin-top: 0;
+   margin-bottom: 0;
+  
+   
+ 
+}
+.middle-list{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.middle-list:hover{
+    color: #fc2779;
+}
+.serch-input{
+    width: 220px;
+    font-size: 15px;
+   background-color: #f4f4f4;
+}
+.search-btn{
+    background-color: #fc2779;
+    color: white;
+    border-radius: 8px;
+}
+.search-btn:hover{
+    background-color: #fc2779;
+    color: white;
+   
+}
+.last-heder{
+    box-shadow: 0px 3px 3px 0.01px rgba(147, 140, 140, 0.5);
+    padding: 5px 0;
+}
+.last-list{
+    color: #888793;
+    font-weight:bold;
+    font-size: 15px;
+}
+.last-list:hover{
+    color: #fc2779;
+}
+
+.nykka-logo{
+    width: 90px;
+    margin-left: 20px;
+    
+}
+
+
+.nav-item .nav-link span{
+    font-size: 15px;
+}
+
+
